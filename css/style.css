@@ -321,3 +321,13 @@ input[name="r"]{
         transform: scale(1.2) translateY(-5px);
     }
 }
+@media screen and (max-height: 600px ) {
+    .card {
+        height: 20vh;
+    }
+}
+@media screen and (max-height: 400px ) {
+    .card {
+        height: 25vh;
+    }
+}
